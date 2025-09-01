@@ -42,15 +42,15 @@ document.addEventListener('DOMContentLoaded', () => {
     let sessionState = {};
 
     const audio = {
-        'gentle-piano': new Audio('../assets/audio/gentle-piano.mp3'),
-        'river-sounds': new Audio('../assets/audio/river-sounds.mp3'),
-        'ambient-chimes': new Audio('../assets/audio/ambient-chimes.mp3'),
-        'phase-inhale': new Audio('../assets/audio/phase-sounds/Inhale.mp3'),
-        'phase-hold': new Audio('../assets/audio/phase-sounds/Hold.mp3'),
-        'phase-exhale': new Audio('../assets/audio/phase-sounds/Exhale.mp3'),
-        'instruction-inhale': new Audio('../assets/audio/spoken-instructions/Inhale Instruction.mp3'),
-        'instruction-hold': new Audio('../assets/audio/spoken-instructions/Hold Instruction.mp3'),
-        'instruction-exhale': new Audio('../assets/audio/spoken-instructions/Exhale Instruction.mp3'),
+        'gentle-piano': new Audio('gentle-piano.mp3'),
+        'river-sounds': new Audio('river-sounds.mp3'),
+        'ambient-chimes': new Audio('ambient-chimes.mp3'),
+        'phase-inhale': new Audio('phase-sounds/Inhale.mp3'),
+        'phase-hold': new Audio('phase-sounds/Hold.mp3'),
+        'phase-exhale': new Audio('Exhale.mp3'),
+        'instruction-inhale': new Audio('spoken-instructions/Inhale Instruction.mp3'),
+        'instruction-hold': new Audio('spoken-instructions/Hold Instruction.mp3'),
+        'instruction-exhale': new Audio('spoken-instructions/Exhale Instruction.mp3'),
     };
 
     const phases = ['Inhale', 'Hold', 'Exhale', 'Hold'];

@@ -42,15 +42,15 @@ document.addEventListener('DOMContentLoaded', () => {
     let sessionState = {};
 
     const audio = {
-        'gentle-piano': new Audio('gentle-piano.mp3'),
-        'river-sounds': new Audio('river-sounds.mp3'),
-        'ambient-chimes': new Audio('ambient-chimes.mp3'),
-        'phase-inhale': new Audio('phase-sounds/Inhale.mp3'),
-        'phase-hold': new Audio('phase-sounds/Hold.mp3'),
+        'gentle-piano': new Audio('piano_sample.mp3'),
+        'river-sounds': new Audio('river_sample.mp3'),
+        'ambient-chimes': new Audio('chimes_sample.mp3'),
+        'phase-inhale': new Audio('Inhale.mp3'),
+        'phase-hold': new Audio('Hold.mp3'),
         'phase-exhale': new Audio('Exhale.mp3'),
-        'instruction-inhale': new Audio('spoken-instructions/Inhale Instruction.mp3'),
-        'instruction-hold': new Audio('spoken-instructions/Hold Instruction.mp3'),
-        'instruction-exhale': new Audio('spoken-instructions/Exhale Instruction.mp3'),
+        'instruction-inhale': new Audio('Inhale-Instruction.mp3'),
+        'instruction-hold': new Audio('Hold-Instruction.mp3'),
+        'instruction-exhale': new Audio('Exhale-Instruction.mp3'),
     };
 
     const phases = ['Inhale', 'Hold', 'Exhale', 'Hold'];

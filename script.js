@@ -42,8 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let sessionState = {};
 
     const audio = {
-        'gentle-piano': new Audio('gentle-piano.mp3'),
-        'river-sounds': new Audio('river-sounds.mp3'),
+        'gentle-piano': new Audio('piano-sample.mp3'),
+        'river-sounds': new Audio('river-sample.mp3'),
         'ambient-chimes': new Audio('ambient-chimes.mp3'),
         'phase-inhale': new Audio('Inhale.mp3'),
         'phase-hold': new Audio('Hold.mp3'),
